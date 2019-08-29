@@ -1,0 +1,61 @@
+#imagemFundo{
+    margin-top: 50px;
+    background-size: cover;
+    background-image: url("../assets/img/bg.jpg");
+    height:240px;
+}
+
+.textoTitulo{
+    color:#FFFFFF;
+}
+
+.caixa:hover {
+    background: #f4f4f4;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; 
+    cursor: hand;
+    cursor: pointer;
+}
+
+#logo{
+    height: 60px;
+}
+
+#barraServico{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tituloServico{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.descricaoServico{
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.imgServico{
+    width: 120px;
+}
+
+.imgLogo{
+    margin-top: 5%;
+    height: 150px;
+}
+
+#footer{
+    background-color: #257fc1;
+    margin-top:3%;
+}
+
+
+.div_teste{
+    width:200px;
+    height:100px;
+    background:#f00;
+    position:absolute;
+    z-index:100;
+    bottom:0;
+    }
