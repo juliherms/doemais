@@ -42,42 +42,107 @@
         <h1>DOE +</h1>
         <h4>Ajude a quem precisa</h4>
       </div>
-      <!--<div class="header-bt-call">
-           <a href="#" class="btn btn-primary">Link 1</a>
-           <a href="#" class="btn btn-primary-sub">Link 2</a>
-       </div>-->
     </div>
   </div>
-  <!-- features -->
-  <div class="row" id="barraServico">
-    <div class="col-sm text-center">
-      <h2>Serviços</h2>
-
-    </div>
-  </div>
+  <!-- barra de serviços -->
+    <section id="servicos" class="py-5">
+        <div class="col-sm text-center">
+          <h2 class="text-center title">Nossos <span class="color-text">Serviços</span></h2>
+          <hr class="c-hr">
+        </div>  
+        <div class="row" id="barraServico"> 
+          </div>
+    </section>
+   
+  
   <div class="row">
     <div class="col-sm text-center caixa">
       <img src="../assets/img/register1.png" class="imgServico">
       <h3 class="tituloServico">Faça o seu cadastro</h3>
-      <p class="descricaoServico">bla bla bla bla bla bla bla bla bla bla bla bla</p>
+      <p class="descricaoServico">Faça o seu cadastro pela App ou pelo o site e encontre instituições sérias e ajuda e apoio social para você realizar a sua doação</p>
     </div>
     <div class="col-sm text-center caixa">
       <img src="../assets/img/donate.png" class="imgServico">
       <h3 class="tituloServico">Doe de forma Simples</h3>
-      <p class="descricaoServico">bla bla bla bla bla bla bla bla bla bla bla bla</p>
+      <p class="descricaoServico">Pratique o bem, apoie instituições de forma rápida e fácil através do site ou app.</p>
     </div>
     <div class="col-sm text-center caixa">
       <img src="../assets/img/keep1.png" class="imgServico">
       <h3 class="tituloServico">Acompanhe sua Contribuição</h3>
-      <p class="descricaoServico">bla bla bla bla bla bla bla bla bla bla bla bla</p>
-    </div>
-  </div>
-  <div class="row" id="barraServico">
-    <div class="col-sm text-center">
-      <h2>Sobre nós</h2>
+      <p class="descricaoServico">Transparência e acompanhamento disponíveis a qualquer hora e qualquer lugar</p>
     </div>
   </div>
 
+
+  <!-- barra de sobre nós -->
+  <section id="sobre" class="py-5">
+      <div class="col-sm text-center">
+        <h2 class="text-center title">Sobre <span class="color-text">Nós</span></h2>
+        <hr class="c-hr">
+      </div>  
+      <div class="row" ></div>
+  </section>
+
+  <div class="row">
+      <div class="col-sm text-center caixa">
+        <h3 class="tituloServico">Equipe</h3>
+        <p class="descricaoServico">Faça o seu cadastro pela App ou pelo o site e encontre instituições sérias e ajuda e apoio social para você realizar a sua doação</p>
+      </div>
+  </div>  
+
+  <!-- barra de sobre nós -->
+  <section id="sobre" class="py-5">
+      <div class="col-sm text-center">
+        <h2 class="text-center title">Nosso <span class="color-text">Contato</span></h2>
+        <hr class="c-hr">
+      </div>  
+      <div class="row" ></div>
+  </section>
+
+  <div class="row">
+      <div class="col-sm text-center caixa">
+          <div class="contact-form">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-9 col-xs-11">
+                    <form action="" method="POST">
+                      <div class="row pt-3">
+                        <div class="col-md-6 col-xs-12">
+                          <div class="form-group">
+                            <input type="text" placeholder="Nome" name="name" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                          <div class="form-group">
+                            <input type="email" placeholder="E-mail" name="email" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                          <div class="form-group">
+                            <input type="text" placeholder="Mensagem" name="subject" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                          <div class="form-group">
+                            <textarea name="msg" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-primary">
+                              <i class="ion-paper-airplane"></i>
+                              Enviar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>  
 
 </div>
 
@@ -86,4 +151,5 @@
 <footer class="page-footer bg-dark" id="footer">
   <div class="text-center py-3 text-light">Direitos reservados #CONNECT 2019</div>
 </footer>
+
 <router-outlet></router-outlet>

@@ -17,6 +17,24 @@
     cursor: pointer;
 }
 
+.title{
+    font-weight: 300;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+.c-hr{
+    margin:auto;
+    width: 68px;
+    position: relative;    
+    border-top: 2px solid #3CB371;
+    margin-top: 1em;
+}
+.color-text{
+    color: #3CB371;
+}
+
 #logo{
     height: 60px;
 }
