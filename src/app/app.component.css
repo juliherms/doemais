@@ -68,6 +68,11 @@
     margin-top:3%;
 }
 
+.add-cursor{
+    cursor: hand;
+    cursor: pointer;
+}
+
 
 .div_teste{
     width:200px;
