@@ -14,6 +14,7 @@ html {
     color: rgb(204, 28, 28);
  }
  
+ 
  /*--- Nav Scrolling Offset --*/
  .offset:before {
     content: "";
@@ -361,7 +362,7 @@ html {
     /* background-color: #505962; */
  }
  .row.outer {
-    background-color: rgba(57, 63, 70, .85);
+    background-color:  rgb(204, 28, 28, .50);
     padding: 1rem 2rem 3rem;
  }
  .footer img {
@@ -385,14 +386,14 @@ html {
     margin-bottom: 1.3rem;
  }
  .form-control {
-    background-color: #53595f;
+    background-color: #FFFFFF;
     border-radius: 0;
-    border: .15rem solid #666b71;
+    border: .15rem solid #000000;
     color: white!important;
     font-size: 1.1rem;
  }
  .form-control:focus {
-    background-color: #53595f;
+    background-color: #e4d611;
     border: .15rem solid #666b71;
  }
  .form-group input::placeholder,
@@ -400,7 +401,7 @@ html {
     color: #b2b5b8!important;
  }
  hr.socket {
-    border-top: .2rem solid #666b71;
+    border-top: .2rem solid #FFFFFF;
     width: 100%;
  }
  
