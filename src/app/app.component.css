@@ -11,7 +11,7 @@ html {
     color: #505962;
  }
  .text-nuno {
-    color: #1EBBA3;
+    color: rgb(204, 28, 28);
  }
  
  /*--- Nav Scrolling Offset --*/
@@ -48,7 +48,7 @@ html {
  }
  .navbar-nav .nav-link.active,
  .navbar-nav .nav-link:hover {
-    color: #1EBBA3;
+    color: rgb(204, 28, 28);
  }
  .custom-toggler-icon {
     color: white;
@@ -56,7 +56,8 @@ html {
  }
  .navbar.solid,
  .navbar.solid-toggle {
-    background: rgba(0, 0, 0, .7)!important;
+   background: rgb(204, 28, 28, .7)!important;
+   /* background: rgba(0, 0, 0, .7)!important; */
     transition: background-color 1s ease;
  }
  
@@ -156,11 +157,11 @@ html {
     margin: 1rem;
  }
  .btn-nuno {
-    background-color: #1EBBA3;
+    background-color: rgb(204, 28, 28);
     color: white;
  }
  .btn-nuno:hover {
-    background-color: #189582;
+    background-color: rgb(204, 28, 28);
     color: white;
  }
  h3.heading {
@@ -173,11 +174,11 @@ html {
  .heading-underline {
     width: 3rem;
     height: .2rem;
-    background-color: #1EBBA3;
+    background-color: rgb(204, 28, 28);
     margin: 0 auto 2rem;
  }
  .feature span {
-    color: #1EBBA3;
+    color: rgb(204, 28, 28);
     margin-bottom: .6rem;
  }
  .feature h3 {
@@ -239,7 +240,7 @@ html {
     background-color: white;
     height: 100%;
     padding: 1.6rem;
-    border-top: .25rem solid #1EBBA3;
+    border-top: .25rem solid rgb(204, 28, 28);
     box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
     transition: transform .7s ease;
     position: relative;
@@ -320,7 +321,7 @@ html {
     padding-right: .8rem;
  }
  ul.social li a {
-    color: #1EBBA3;
+    color: rgb(204, 28, 28);
     transition: all .2s ease;
  }
  ul.social li a:hover {
