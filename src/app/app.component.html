@@ -1,167 +1,305 @@
-<!-- header -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container">
-    <!-- <a class="navbar-brand" href="#">#CONNECT</a> -->
-    <a class="navbar-brand" href="#">
-      <img id="logo" src=" ../assets/img/logo_1.png">
+<!-- Start Home Section -->
+<div id="home">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a href="#home" class="navbar-brand"><img src="img/nuno.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servicos" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#parceiros" class="nav-link">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contribuicoes" class="nav-link">Contribuições</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#clients" class="nav-link">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+		<!-- Inicio da Landing page de apresentacao -->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner"></div>
+			</div>
+		</div>
+    <!-- Fim da Landing page de apresentação -->
+    
+    <!-- Start Landing Page Caption -->
+		<div class="caption text-center text-light text-uppercase">
+
+			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Doe <span class="text-nuno">Mais</span></h1>
+			<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">O bem faz bem!</h3>
+			<a href="#servicos" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a>
+
+		</div>
+    <!-- End Landing Page Caption -->
+
+    <!-- responsavel por apresentar o set down -->
+		<a href="#servicos" class="down-arrow text-center">
+      <div class="arrow d-none d-md-block">
+        <i class="fas fa-angle-down"></i>
+      </div>
     </a>
-    <!-- menu hamburguer -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavbar"
-      aria-controls="#menuNavbar" aria-expanded="false">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- menu de opcoes -->
-    <div class="collapse navbar-collapse" id="menuNavbar" style="padding-left: 5%">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link add-cursor">Início</a>
-        </li>
-        <li class="nav-item">
-          <a href="#historia" class="nav-link add-cursor">História</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link add-cursor">Missão</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link add-cursor">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contato" class="nav-link add-cursor">Contato</a>
-        </li>
-      </ul>
-    </div>
-    <!-- fim menu de opcoes-->
-  </div>
-</nav>
+    <!-- End set down -->
+  </div> <!-- End Home Section -->
 
-<div class="container-fluid">
-  <!-- imagem -->
-  <div class="row">
-    <div class="col-sm" id="imagemFundo">
-      <div class="my-5 textoTitulo">
-        <h1>DOE +</h1>
-        <h4>Ajude a quem precisa</h4>
-      </div>
-    </div>
-  </div>
-  <!-- barra de serviços -->
-  <section id="servicos" class="py-5">
-    <div class="col-sm text-center">
-      <h2 class="text-center title">Nossos <span class="color-text">Serviços</span></h2>
-      <hr class="c-hr">
-    </div>  
-    <div class="row" id="barraServico"></div>
-  </section>
-  <!-- Conteudo -->
-  <div class="row">
-    <div class="col-sm text-center caixa">
-      <img src="../assets/img/register1.png" class="imgServico">
-      <h3 class="tituloServico">Faça o seu cadastro</h3>
-      <p class="descricaoServico">Faça o seu cadastro pela App ou pelo o site e encontre instituições sérias e ajuda e apoio social para você realizar a sua doação</p>
-    </div>
-    <div class="col-sm text-center caixa">
-      <img src="../assets/img/donate.png" class="imgServico">
-      <h3 class="tituloServico">Doe de forma Simples</h3>
-      <p class="descricaoServico">Pratique o bem, apoie instituições de forma rápida e fácil através do site ou app.</p>
-    </div>
-    <div class="col-sm text-center caixa">
-      <img src="../assets/img/keep1.png" class="imgServico">
-      <h3 class="tituloServico">Acompanhe sua Contribuição</h3>
-      <p class="descricaoServico">Transparência e acompanhamento disponíveis a qualquer hora e qualquer lugar</p>
-    </div>
-  </div>
-  <!-- barra nossa historica -->
-  <section id="historia" class="py-5">
-    <div class="col-sm text-center">
-      <h2 class="text-center title">Nossa <span class="color-text">História</span></h2>
-      <hr class="c-hr">
-    </div>  
-    <div class="row" id="barraServico"></div>
-  </section>
-  <!-- conteudo -->
-  <div class="row">
-    <div class="col-sm text-center caixa">
-      <p class="descricaoServico">Este projeto iniciou em 2019 com um sonho de ajudar ONGs e engajar voluntários na prática do bem. Criamos então o aplicativo "Doe Mais" com o objetivo de divulgar trabalhos e ONG's da região e captar doações de seus voluntários.</p>
-      <p class="descricaoServico">#Connect Sistemas de Informática Ltda – Desenvolvedora do Doe Mais – Focada em viabilizar o desenvolvimento, manutenção e internacionalização do Aplicativo.</p>
-     </div> 
-  </div>
+  <div id="servicos" class="offset">
+  		<!-- Start Jumbotron -->
+		<div class="jumbotron m-0 py-5">
 
-  <!-- barra de sobre nós -->
-  <section id="sobre" class="py-5">
-      <div class="col-sm text-center">
-        <h2 class="text-center title">Sobre <span class="color-text">Nós</span></h2>
-        <hr class="c-hr">
-      </div>  
-      <div class="row" ></div>
-  </section>
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Nossos Serviços</h3>
+				<div class="heading-underline"></div>
+			</div>
 
-  <div class="row">
-      <div class="col-sm text-center caixa">
-        <h3 class="tituloServico">Equipe</h3>
-        <p class="descricaoServico">Faça o seu cadastro pela App ou pelo o site e encontre instituições sérias e ajuda e apoio social para você realizar a sua doação</p>
-      </div>
-  </div>  
+			<div class="container">
+				<div class="row text-center px-lg-4 px-xl-5">
 
-  <!-- barra de sobre nós -->
-  <section id="contato" class="py-5">
-      <div class="col-sm text-center">
-        <h2 class="text-center title">Nosso <span class="color-text">Contato</span></h2>
-        <hr class="c-hr">
-      </div>  
-      <div class="row" ></div>
-  </section>
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Faça o Seu Cadastro </h3>
+							<p class="lead">Faça o seu cadastro pela App ou pelo o site e encontre instituições sérias e ajuda e apoio social para você realizar a sua doação.</p>
+						</div>
+					</div>
 
-  <div class="row">
-      <div class="col-sm text-center caixa">
-          <div class="contact-form">
-              <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-md-9 col-xs-11">
-                    <form action="" method="POST">
-                      <div class="row pt-3">
-                        <div class="col-md-6 col-xs-12">
-                          <div class="form-group">
-                            <input type="text" placeholder="Nome" name="name" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-xs-12">
-                          <div class="form-group">
-                            <input type="email" placeholder="E-mail" name="email" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-xs-12">
-                          <div class="form-group">
-                            <input type="text" placeholder="Título" name="subject" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-xs-12">
-                          <div class="form-group">
-                            <textarea name="msg" class="form-control" placeholder="Mensagem" cols="30" rows="10"></textarea>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-xs-12">
-                          <div class="form-group">
-                            <button type="submit" class="btn btn-primary">
-                              <i class="ion-paper-airplane"></i>
-                              Enviar
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-desktop fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+							</span>
+							<h3>Doe de Forma Simples</h3>
+							<p class="lead">Pratique o bem, apoie instituições de forma rápida e fácil através do site ou app.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-play fa-stack-1x fa-inverse" data-fa-transform="shrink-3.5 right-1"></i>
+							</span>
+							<h3>Acompanhe sua Contribuição</h3>
+							<p class="lead">Transparência e acompanhamento disponíveis a qualquer hora e qualquer lugar.</p>
+						</div>
+					</div>
+<!--
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-angle-double-down fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Parallax Scrolling</h3>
+							<p class="lead">Fixed background images allow the theme to have content-filled parallax scrolling sections.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+							<div class="feature px-2">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-sliders-h fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+								</span>
+								<h3>Content Slider</h3>
+								<p class="lead">Owl.Carousel.js makes navigating content sliders seamless with it's content carousel navigation.</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+							<div class="feature px-2">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fab fa-wpforms fa-stack-1x fa-inverse"></i>
+								</span>
+								<h3>Contact Form</h3>
+								<p class="lead">The Bootsrap HTML form will send directly to your email address using PHPMailer.php.</p>
+							</div>
+						</div>
+          -->
+				</div> <!-- End Row -->
+			</div> <!-- End Container-->
+    </div> <!-- End Jumbotron -->
+    	<!-- Start Portfolio Section -->
+	<div id="parceiros" class="offset">
+
+      <div class="container-fluid px-0">
+        <div class="row justify-content-center py-5">
+  
+          <div class="col-12 mt-5 os-animation" data-animation="fadeInUp">
+            <h3 class="heading">Parceiros</h3>
+            <div class="heading-underline"></div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
+            <div class="portfolio-item overflow-hidden">
+              <a href="../assets/img/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="../assets/img/portfolio/1.png" alt="" class="example-image w-100">
+              </a>
             </div>
-      </div>
-  </div>  
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
+            <div class="portfolio-item overflow-hidden">
+              <a href="../assets/img/portfolio/2.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="../assets/img/portfolio/2.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/3.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/3.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/4.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/4.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/5.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/5.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInLeft">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/6.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/6.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/7.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/7.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-3 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
+            <div class="portfolio-item overflow-hidden">
+              <a href="img/portfolio/8.jpg" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                <img src="img/portfolio/8.jpg" alt="" class="example-image w-100">
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation" data-animation="fadeInUp">
+            <p class="lead">Get in contact with us to see more of our great portfolio design work in addition to web development projects such as websites, apps and more!</p>
+            <a href="#contact" class="btn btn-secondary btn-sm">Get In Touch</a>
+          </div>
+  
+        </div> <!-- End Row -->
+      </div> <!-- End Container -->
+  
+    </div>
 
-</div>
 
-<div id="counter"></div>
+    <!-- Start Skills Section -->
+  	<div id="contribuicoes" class="offset">
+      
+        <div class="jumbotron m-0 py-5">
+            <div class="container">
+      
+              <div class="col-12 os-animation" data-animation="fadeInUp">
+                <h3 class="heading">Our Skills</h3>
+                <div class="heading-underline"></div>
+              </div>
+      
+              <div class="row justify-content-center text-center os-animation" data-animation="fadeInUp">
+                <div class="col-md-9 col-lg-12 col-xl-11">
+                  <div class="row">
+      
+                    <div class="col-md-6 col-lg-3">
+                      <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-clock fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h1 class="text-nuno font-weight-bold py-1"><span class="counter">457</span></h1>
+                      <h4 class="text-uppercase font-weight-bold">Class Minutes</h4>
+                    </div>
+      
+                    <div class="col-md-6 col-lg-3">
+                      <span class="fa-stack fa-3x">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fab fa-codepen fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h1 class="text-nuno font-weight-bold py-1"><span class="counter">199</span></h1>
+                      <h4 class="text-uppercase font-weight-bold">Web Dev Files</h4>
+                    </div>
+      
+                    <div class="col-md-6 col-lg-3">
+                      <span class="fa-stack fa-3x">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h1 class="text-nuno font-weight-bold py-1"><span class="counter">365</span></h1>
+                      <h4 class="text-uppercase font-weight-bold">24/7 Support</h4>
+                    </div>
+      
+                    <div class="col-md-6 col-lg-3">
+                      <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-cloud-download-alt fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h1 class="text-nuno font-weight-bold py-1"><span class="counter">101</span></h1>
+                      <h4 class="text-uppercase font-weight-bold">Resources</h4>
+                    </div>
+      
+                  </div> <!-- End Row -->
+                </div> <!-- End Column -->
+              </div> <!-- End Row Justify Content -->
+      
+              <div class="col-12 text-center os-animation" data-animation="fadeInUp">
+                <p class="lead">Want to learn more about our design and development skills?</p>
+                <a href="#contact" class="btn btn-nuno btn-sm">Contact Us</a>
+              </div>
+      
+            </div> <!-- End Container -->
+          </div> <!-- End Jumbotron -->
+  	</div>
 
-<footer class="page-footer bg-dark" id="footer">
-  <div class="text-center py-3 text-light">Direitos reservados #CONNECT 2019</div>
-</footer>
+  </div>
 
-<router-outlet></router-outlet>
+  
