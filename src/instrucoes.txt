@@ -58,3 +58,7 @@ Criando mais componentes
 Criando o componente de error
 
 -> ng g c shared/components/form-field-error --inline-template
+
+================ commits ==========
+-> git add .
+-> git commit -m "implementacao do cadastro de usuario"
