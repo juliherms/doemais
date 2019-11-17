@@ -393,7 +393,7 @@ html {
     font-size: 1.1rem;
  }
  .form-control:focus {
-    background-color: #e4d611;
+    background-color: #e2dc85;
     border: .15rem solid #666b71;
  }
  .form-group input::placeholder,

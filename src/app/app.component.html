@@ -30,7 +30,7 @@
             <a href="#skills" class="nav-link">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contato</a>
+            <a href="#contact" class="nav-link">Cadastre-se</a>
           </li>
         </ul>
       </div>
@@ -52,7 +52,7 @@
 
 			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Doe <span class="text-nuno">Mais</span></h1>
 			<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">O bem faz bem!</h3>
-			<a href="#servicos" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Cadastre-se</a>
+			<a href="#contact" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Cadastre-se</a>
 
 		</div>
     <!-- End Landing Page Caption -->
@@ -230,7 +230,6 @@
             <div class="row py-3">
   
               <div class="col-md-5 px-0 pr-md-3">
-                <img src="img/nuno.png" alt="">
                 <p>Doe Mais, Portal responsável por engajar entidade e voluntários para praticar o Bem.</p>
                 <strong>Localização</strong>
                 <p>100 Av. Caxanga<br>Recife, A XXX</p>
@@ -239,31 +238,36 @@
               </div> <!-- End Column -->
   
               <div class="col-md-7 px-0 pl-md-3">
-                <h3>Contato</h3>
-  
-                <form action="contact/contact.php" method="POST" id="contact-form">
-  
+                <h3>Cadastre-se</h3>
+                <!-- inicio do formulario -->
+                <form (ngSubmit)="salvar()" [formGroup]="cadastroForm">
+               
                   <div class="messages"></div>
                   <div class="controls">
-  
+                    <!-- Campo Nome -->
                     <div class="form-group">
-                      <input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Seu Nome">
+                      <input formControlName="nome" type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Seu Nome">
                     </div>
-  
+                    <!-- Campo Email -->
                     <div class="form-group">
-                      <input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Informe o Seu Email">
+                      <input formControlName="email" type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Informe o Seu Email">
                     </div>
-  
+                    <!-- Campo Login-->
                     <div class="form-group">
-                      <textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Informe Sua Mensagem."></textarea>
-                    </div>
-  
-                    <input type="submit" class="btn btn-outline-light btn-sm" value="Enviar">
+                      <input formControlName="login" type="text" id="form_login" class="form-control" name="login" required="required" placeholder="Informe o Seu Login">
+                    </div>  
+                    <!-- Campo Senha-->
+                    <div class="form-group">
+                      <input formControlName="senha" type="password" id="form_senha" class="form-control" name="senha" required="required" placeholder="Informe Sua Senha">
+                    </div>  
+                   
+                    <!-- Criar conta -->
+                    <input type="submit" [disabled]="!cadastroForm.valid" class="btn btn-outline-light btn-sm" value="Enviar">
   
                   </div> <!-- End Controls -->
                 
                 </form> <!-- End Form -->
-  
+                <!-- fim do formulario -->
               </div> <!-- End Row -->
   
             </div> <!-- End Row -->

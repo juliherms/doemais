@@ -12,6 +12,6 @@ app.get('/*', function(req,res) {
 res.sendFile(path.join(__dirname+'/dist/doemais/index.html'));
 });
 
-
+// Mudar porta em dev
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 8080);

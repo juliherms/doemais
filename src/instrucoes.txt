@@ -1,0 +1,60 @@
+-> ng build
+-> npm start
+
+Instalar o nodejs na versão 10.12
+Instalar o angular CLI na versão 7
+=== atualizando a versão do angular =============================
+-- npm uninstall -g @angular/cli
+-- npm cache verify
+-- npm install -g @angular/cli@latest
+
+--> baixar o git for windows - https://gitforwindows.org
+
+==================== verificando versao do angular =================
+
+-> ng --version
+
+==================== criado o projeto basico ========================
+
+-> ng new gestaoFacil --routing --skip-tests
+
+-> C:\Users\j.a.vasconcelos\Documents\AMManager\ammanager\src
+
+
+==================== baixar as dependências do projeto ==============
+
+-> npm i bootstrap jquery --save (o bootstrap requer o jquery).
+-> npm i angular-imask --save (lib para criar mascaras no input de dados)
+-> npm i currency-formatter --save (lib para trabalhar com formatação monetária)
+-> npm i moment --save (lib para trabalhar com datas)
+-> npm i toastr --save (lib para exibir mensagens)
+-> npm i primeng --save (lib do primefaces para angular)
+-> npm i primeicons --save (lib de icones no prime)
+-> npm i chart.js --save (lib de graficos)
+-> npm i --save angular-in-memory-web-api (simulador de backend)
+
+==================== Compilando e executando a app =====================
+
+-> ng serve
+-> ng s (compila o projeto)
+
+=================== Criado páginas no sistema ===========================
+
+-> ng g m pages/times --routing
+-> ng g c pages/times/time-list
+-> ng g c pages/times/time-form
+-> ng g s pages/times/shared/time
+
+
+-> ng g m pages/ferias -- routing
+-> ng g m core (modulo core)
+-> ng g m shared (modulo shared)
+
+Criando mais componentes
+
+-> ng g c shared/components/bread-crumb
+-> ng g c shared/components/page-header
+
+Criando o componente de error
+
+-> ng g c shared/components/form-field-error --inline-template
