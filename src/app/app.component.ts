@@ -29,8 +29,14 @@ export class AppComponent implements OnInit {
       dataCadastro : ['',Validators.required],
     });
 
+
+
+    //captura a data atual.    
+    let d = new Date();
+    let dataCadastro = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+
     //seta a data de cadastro
-    this.cadastroForm.controls['dataCadastro'].patchValue('20191116');
+    this.cadastroForm.controls['dataCadastro'].patchValue(dataCadastro);
     //seta o perfil cadastrado
     this.cadastroForm.controls['perfis'].patchValue('2'); //doador/voluntario
   }
