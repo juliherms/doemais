@@ -1,6 +1,7 @@
 import { UsuarioService } from './services/usuario.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import toastr from "toastr";
 
 @Component({
   selector: 'app-root',
@@ -46,10 +47,12 @@ export class AppComponent implements OnInit {
 
     let usuario = this.cadastroForm.value;
     this.usuarioService.salvar(usuario).subscribe(res => {
-      console.log("sucesso");
+    //exibe uma mensagem na tela
+    toastr.success("Solicitação processada com sucesso!");
     
     }, err => {
-      console.log("erro->" + err);
+      toastr.error("Ocorreu um erro ao processar a sua solicitação!");
+      
     });
   }
 }
